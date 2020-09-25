@@ -35,7 +35,7 @@ png(file="plot4.png")
 # create an empty 4x4 plot window
 par(mfrow=c(2,2),mar=c(4,4,2,2))
 # add the first plot
-plot(sub_data$datetime,sub_data$Global_active_power,type="l",ylab="Global Active Power")
+plot(sub_data$datetime,sub_data$Global_active_power,type="l",ylab="Global Active Power",xlab="")
 # add the second plot
 plot(sub_data$datetime,sub_data$Voltage,type="l",ylab="Voltage",xlab="datetime")
 # add the third plot (multiple data added using 'points' and 'legend' - had to look up how to make the legend without the box)
